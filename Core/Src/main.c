@@ -122,6 +122,7 @@ int main(void)
   printf("\n\n\n-------------\nStarting I2C1\n");
 
   // Go through all possible i2c addresses
+  printf("\nScan I2C1\n");
   for (uint8_t i = 0; i < 128; i++) {
 
       if (HAL_I2C_IsDeviceReady(&hi2c1, (uint16_t) (i << 1), 3, 5) == HAL_OK) {

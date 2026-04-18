@@ -1,5 +1,8 @@
 ### This project is a quick practice of the I2C serial protocol. 
 
+This project is a quick practice for myself of the I2C protocol by writing and reading from a BMP180 temperature and pressure sensor
+
+
 
 This block of code is a quick way of going through all possible I2C addresses and seeing which slave addresses are ready
 
